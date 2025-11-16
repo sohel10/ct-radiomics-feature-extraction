@@ -1,4 +1,4 @@
-🧬 CT Radiomics Feature Extraction
+## 🧬 CT Radiomics Feature Extraction
 
 Extract quantitative radiomics features (first-order, texture, wavelet) from CT scans and export them into a clean CSV file — ready for machine-learning, multimodal AI, or clinical modeling.
 
@@ -15,7 +15,7 @@ Uses SimpleITK for robust medical image I/O
 
 Handles 3D images with native spacing
 
-🧩 2. Automatic Mask Generation
+## 🧩 2. Automatic Mask Generation
 
 If no segmentation mask is provided
 
@@ -44,7 +44,7 @@ radiomics_full_features.csv
 
 Perfect for ML pipelines, multimodal fusion, and deep learning.
 
-📊 Example Output
+## 📊 Example Output
 <p align="center"> <img src="media/radiomics_csv_preview.png" width="70%"> </p> <p align="center"> <em>Figure: Radiomics feature table containing 100+ quantitative biomarkers extracted from CT images.</em> </p>
 ⚙️ Setup Instructions (WSL2 + Ubuntu)
 Step 1 — Create Isolated Environment
@@ -87,7 +87,7 @@ CSV output generated:
 
 radiomics_full_features.csv
 
-📈 Sample of Extracted Metrics
+## 📈 Sample of Extracted Metrics
 Feature Group	Examples
 First Order	Energy, Entropy, Mean, Variance
 GLCM	Contrast, Homogeneity, Correlation
@@ -98,7 +98,7 @@ Wavelet	wavelet-LLH_GLCM_Contrast, etc.
 
 A total of ~100–120 biomarkers per CT volume.
 
-📜 Requirements
+##📜 Requirements
 SimpleITK
 pyradiomics==3.0.1
 nibabel
@@ -106,7 +106,7 @@ pydicom
 pandas
 numpy
 
-📄 License
+## 📄 License
 
 MIT License — free to use, modify, and distribute.
 
