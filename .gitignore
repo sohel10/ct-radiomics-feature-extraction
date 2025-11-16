@@ -1,31 +1,27 @@
-# Python
+# Ignore radiology data
+*.nii
+*.nii.gz
+*.dcm
+*.nrrd
+*.mhd
+*.png
+
+# Ignore generated outputs
+radiomics_features.csv
+radiomics_full_features.csv
+radiomics_fullimage.csv
+radiomics_list.csv
+
+# Ignore masks
+masks/
+
+# Ignore personal notes
+Notes.txt
+
+# Python ignores
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.pkl
-
-# Virtual environments
+.env
+*.env
 radiomics-env/
-venv/
-.env/
-
-# VS Code
-.vscode/
-*.code-workspace
-
-# Logs
-*.log
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Radiomics output files
-radiomics_full_features.csv
-radiomics_features.csv
-radiomics_list.csv
-radiomics_fullimage.csv
