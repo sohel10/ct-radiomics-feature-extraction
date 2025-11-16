@@ -1,0 +1,22 @@
+setting:
+  binWidth: 25
+  normalize: true
+  removeOutliers: 3
+  resampledPixelSpacing: [1, 1, 1]
+  interpolator: "sitkBSpline"
+  force2D: false
+  force2Ddimension: 0
+
+imageType:
+  Original: {}
+  LoG:
+    sigma: [1.0]
+
+featureClass:
+  firstorder: []
+  glcm: []
+  glrlm: []
+  glszm: []
+  gldm: []
+  ngtdm: []
+  shape: []

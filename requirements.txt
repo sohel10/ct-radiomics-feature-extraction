@@ -1,0 +1,6 @@
+requirements = """pyradiomics==3.0.1
+SimpleITK
+nibabel
+numpy
+pandas
+pydicom

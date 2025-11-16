@@ -1,0 +1,29 @@
+1. Source of the data set :
+https://www.cancerimagingarchive.net/analysis-result/luad-ct-survival/?utm_source=chatgpt.com
+2. from here we download the Tumor Segemenation Original Source Images (NIFIT and ZIP formatted) with 1.66GB and will extract using radiomics features and converted them into CSV file. 
+
+Setup Pyradiomics
+3. PyRadiomics does NOT support modern Windows + Python 3.9/3.10/3.11 without a C++ compiler. Why i am not using Docker 
+Use WSL2 Ubuntu: sudo apt update
+sudo apt install python3-pip python3-venv -y
+python3 -m venv radiomics
+source radiomics/bin/activate
+pip install SimpleITK pyradiomics nibabel pydicom
+pip install versioneer
+pip install --upgrade wheel setuptools
+pip install --no-build-isolation https://github.com/AIM-Harvard/pyradiomics/archive/refs/tags/v3.0.1.zip
+
+Used Ubuntu terminal to open VS code 
+
+4.cd /mnt/c/Users/sohel/Downloads/Ai_health/radiomics
+
+source ~/radiomics-env/bin/activate
+
+see this : (radiomics-env) sohel@sohel:~
+
+5. create params.yaml 
+6. Make_list 
+7. run python3 analysis.py
+
+
+
