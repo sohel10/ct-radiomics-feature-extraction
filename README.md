@@ -1,13 +1,16 @@
-## 🧬 CT Radiomics Feature Extraction
+### 🧬 CT Radiomics Feature Extraction
 
 Extract quantitative radiomics features (first-order, texture, wavelet) from CT scans and export them into a clean CSV file — ready for machine-learning, multimodal AI, or clinical modeling.
 
-<p align="center"> <img src="media/radiomics_pipeline.png" alt="Radiomics Pipeline Overview" width="80%"> </p>
+<p align="center">
+  <img src="media/Radiomics_Pipe.png" width="80%" alt="Radiomics Pipeline Overview">
+</p>
+
 🧠 Radiomics Pipeline Overview
 
 This project demonstrates an end-to-end radiomics workflow for medical imaging:
 
-🧩 1. Image Loading
+#🧩 1. Image Loading
 
 Reads .nii CT volumes
 
@@ -35,7 +38,7 @@ LoG & Wavelet filtered textures
 
 100+ high-dimensional imaging biomarkers
 
-🧩 4. CSV Export
+#🧩 4. CSV Export
 
 All features saved into:
 
@@ -71,7 +74,7 @@ pip install pandas
 │     └── radiomics_pipeline.png
 │     └── radiomics_csv_preview.png
 
-🚀 Run the Pipeline
+#🚀 Run the Pipeline
 
 Generate list of CT files:
 
