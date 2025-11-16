@@ -3,13 +3,13 @@
 Extract quantitative radiomics features (first-order, texture, wavelet) from CT scans and export them into a clean CSV file — ready for machine-learning, multimodal AI, or clinical modeling.
 
 <p align="center">
-  <img src="media/Radiomics_Pipe.png" width="80%" alt="Radiomics Pipeline Overview">
+  <img src="cover.png" width="85%" alt="CT Radiomics Cover Image">
 </p>
 
 ---
 
 ### 🧠 Radiomics Pipeline Overview
-
+<p align="center"> <img src="Radiomics_Pipe.png" width="80%" alt="Radiomics Pipeline Overview"> </p>
 This project demonstrates an end-to-end radiomics workflow for medical imaging:
 
 ---
